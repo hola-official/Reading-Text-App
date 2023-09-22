@@ -1,82 +1,83 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    border: 0;
-  }
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
-    background: #675afe;
-  }
-  
-  section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 0 auto;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
 
-  .container {
-    padding: 10px 20px;
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0px 4px 16px 2px rgba(0, 0, 0, 0.2);
-  }
-  
-  .container > h1 {
-    font-size: 18px;
-    font-weight: 900;
-    color: #fff;
-  }
-  
-  .contentCon {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 0 5px 5px;
-    color: #4534fe;
-  }
-  
-  .contentCon > textarea {
-    font-size: 16px;
-    padding: 10px;
-    border: 2px solid #675afe;
-    border-radius: 5px;
-  }
-  
-  select {
-    margin-top: 10px;
-    border: 2px solid #675afe;
-    font-size: 15px;
-    color: navy;
-    width: 100%;
-  }
-  
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  button {
-    width: 80%;
-    font-size: 18px;
-    color: #fff;
-    margin: 6px 0;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: #675afe;
-    transition: 0.3s ease;
-  }
-  
-  button:hover {
-    background: #4534fe;
-  }
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  background: #675afe;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.container {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contentCon > h1 {
+  font-size: 40px;
+  font-weight: 900;
+  /* color: #fff; */
+}
+
+.contentCon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 5px 5px;
+  color: #4534fe;
+}
+
+.contentCon > textarea {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #675afe;
+  border-radius: 5px;
+}
+
+select {
+  margin-top: 10px;
+  border: 2px solid #675afe;
+  font-size: 15px;
+  color: navy;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  width: 80%;
+  font-size: 18px;
+  color: #fff;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #675afe;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #4534fe;
+}

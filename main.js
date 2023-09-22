@@ -21,13 +21,13 @@ pauseBtn.addEventListener("click", () => {
 stopBtn.addEventListener("click", () => {
   const textValue = document.querySelector("textarea").value;
   speech.text = textValue;
-  window.speechSynthesis.pause(speech);
+  window.speechSynthesis.cancel(speech);
 });
 
 resumeBtn.addEventListener("click", () => {
   const textValue = document.querySelector("textarea").value;
   speech.text = textValue;
-  window.speechSynthesis.cancel(speech);
+  window.speechSynthesis.resume(speech);
 });
 
 speechSynthesis.onvoiceschanged = () => {
