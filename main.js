@@ -21,7 +21,7 @@ pauseBtn.addEventListener("click", () => {
 stopBtn.addEventListener("click", () => {
   const textValue = document.querySelector("textarea").value;
   speech.text = textValue;
-  window.speechSynthesis.paused(speech);
+  window.speechSynthesis.pause(speech);
 });
 
 resumeBtn.addEventListener("click", () => {
